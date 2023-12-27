@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BBank_Desktop", "BBank_Desktop.csproj", "{6C3325FC-EB2E-4B3C-A803-8AD0970BEDD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bbank_Bibioteca", "..\Bbank_Bibioteca\Bbank_Bibioteca.csproj", "{8E9451B1-0C22-443A-8DB7-76DC3744E71D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C3325FC-EB2E-4B3C-A803-8AD0970BEDD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C3325FC-EB2E-4B3C-A803-8AD0970BEDD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C3325FC-EB2E-4B3C-A803-8AD0970BEDD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C3325FC-EB2E-4B3C-A803-8AD0970BEDD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E9451B1-0C22-443A-8DB7-76DC3744E71D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E9451B1-0C22-443A-8DB7-76DC3744E71D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E9451B1-0C22-443A-8DB7-76DC3744E71D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E9451B1-0C22-443A-8DB7-76DC3744E71D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F30B2DDD-E069-4459-A194-53407CB3CD45}
+	EndGlobalSection
+EndGlobal

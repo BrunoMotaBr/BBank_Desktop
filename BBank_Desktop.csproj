@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6C3325FC-EB2E-4B3C-A803-8AD0970BEDD0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BBank_Desktop2</RootNamespace>
+    <AssemblyName>BBank_Desktop2</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Workflow.ComponentModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Formulario\Form_BuscarPorNome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario\Form_BuscarPorNome.Designer.cs">
+      <DependentUpon>Form_BuscarPorNome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulario\Form_Buscar_Clientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario\Form_Buscar_Clientes.Designer.cs">
+      <DependentUpon>Form_Buscar_Clientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulario\Form_Cadastrar_Clientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario\Form_Cadastrar_Clientes.Designer.cs">
+      <DependentUpon>Form_Cadastrar_Clientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulario\Form_Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario\Form_Inicio.Designer.cs">
+      <DependentUpon>Form_Inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulario\Form_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario\Form_Login.Designer.cs">
+      <DependentUpon>Form_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulario\Form_Pesquisa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario\Form_Pesquisa.Designer.cs">
+      <DependentUpon>Form_Pesquisa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulario\Form_Simular.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario\Form_Simular.Designer.cs">
+      <DependentUpon>Form_Simular.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Formulario\Form_BuscarPorNome.resx">
+      <DependentUpon>Form_BuscarPorNome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulario\Form_Buscar_Clientes.resx">
+      <DependentUpon>Form_Buscar_Clientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulario\Form_Cadastrar_Clientes.resx">
+      <DependentUpon>Form_Cadastrar_Clientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulario\Form_Inicio.resx">
+      <DependentUpon>Form_Inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulario\Form_Login.resx">
+      <DependentUpon>Form_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulario\Form_Pesquisa.resx">
+      <DependentUpon>Form_Pesquisa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulario\Form_Simular.resx">
+      <DependentUpon>Form_Simular.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Bbank_Bibioteca\Bbank_Bibioteca.csproj">
+      <Project>{8e9451b1-0c22-443a-8db7-76dc3744e71d}</Project>
+      <Name>Bbank_Bibioteca</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
