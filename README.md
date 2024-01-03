@@ -1,5 +1,4 @@
-![Icones](https://github.com/BrunoMotaBr/BBank_Desktop/assets/87215947/3adbf62a-3734-46ef-beb2-394f739487b9)# BBank_Desktop
-Projeto pessoa de um banco este é o sistema de desktop com C# e banco de dados SQLServer
+Projeto pessoal de um banco este é o sistema de desktop com C# e banco de dados SQLServer
 ![image](https://github.com/BrunoMotaBr/BBank_Desktop/assets/87215947/9a67a407-43aa-4ffb-93d6-badd0e639aef)
 ![image](https://github.com/BrunoMotaBr/BBank_Desktop/assets/87215947/96aac8de-9686-4fdd-b38c-e8d795f87893)
 ![image](https://github.com/BrunoMotaBr/BBank_Desktop/assets/87215947/6c692637-45c8-4085-aeeb-a747a4516fa9)
